@@ -1,0 +1,277 @@
+
+/* Нижнее меню */
+body {
+  margin: 0;
+}
+.gradient-list {
+  margin: 25px auto 0;  отступ
+  padding: 0;
+  width: 15em;
+  text-align: right;
+  list-style: none;
+}
+.gradient-list a {
+  text-decoration: none;
+  color: #FFFAFA;
+  font-family: Arial, serif;
+  font-size: 1em;
+  font-style: normal;
+}
+.gradient-list li {
+  padding: 10px;
+ }
+
+/////////// 
+ body {
+  margin: 0;
+}
+.gradien-list {
+  margin: 25px auto 0;  отступ
+  padding: 0;
+  width: 15em;
+  text-align: center;
+  list-style: none;
+}
+
+.gradien-list a {
+  text-decoration: none;
+  color: #FFFAFA;
+  font-family: Arial, serif;
+  font-size: 0.8em;
+  font-style: normal;
+}
+.gradien-list li {
+  padding: 10px;
+ }
+ 
+  body {
+  margin: 1;
+}
+ 
+ 
+ /////////////
+ body {
+  margin: 0;
+}
+.gradie-list {
+  margin: 25px auto 0;  отступ
+  padding: 0;
+  width: 15em;
+  text-align: center;
+  list-style: none;
+}
+
+.gradie-list a {
+  text-decoration: none;
+  color: #FFFAFA;
+  font-family: Arial, serif;
+  font-size: 1em;
+  font-style: normal;
+}
+.gradie-list li {
+  padding: 10px;
+ }
+ 
+  body {
+  margin: 1;
+}
+
+
+////////////
+body {
+  margin: 0;
+}
+.gradi-list {
+  margin: 25px auto 0;  отступ
+  padding: 0;
+  width: 15em;
+  text-align: left ;
+  list-style: none;
+}
+.gradi-list a {
+  text-decoration: none;
+  color: #FFFAFA;
+  font-family: Arial, serif;
+  font-size: 0.8em;
+  font-style: normal;
+}
+.gradi-list li {
+  padding: 10px;
+ }
+
+
+/* Кнопка наверх */
+#toTop {
+    width: 70px;
+    position: fixed;
+    top: 720px;
+    right: 40px;
+    cursor: pointer;
+    display: none;
+    background: #2A3E47;
+    border: 2px solid #ffffff;
+    padding: 6px;
+	border-radius: 14px;
+    text-align: center;
+    color: #ffffff;
+    font: 15px Verdana, Arial, Helvetica, sans-serif;
+    z-index: 1000;
+}
+ 
+ 
+ /* Назад */
+ a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   } 
+   a:hover { 
+    text-decoration: underline; /* Добавляем подчеркивание */
+   }
+ 
+
+/* Меню в компании */
+body {
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+	
+}
+
+.main-menu {
+    width: 160px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	
+}
+
+.main-menu a {
+    display: block;
+    margin-bottom: 0px;
+    padding: 8px 14px;
+    text-decoration: none;
+    color: #FFFAFA;
+    border: 1px solid #e5e5e5;
+	
+}
+
+.main-menu a:hover {
+    background: #FF8C00;
+	
+}
+
+.main-menu > li {
+}
+
+.main-menu .sub-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #228B22;
+	
+}
+ 
+ 
+ 
+ /* Слайдер */
+ .wrapper {
+			background: #fff;
+			width: 700px;
+			padding: 1px 15px 15px;
+			margin: 0 auto; 
+		}
+		.slider {
+			z-index: 9;
+			width: 1570px;
+			height: 510px;
+			overflow: hidden;
+			margin: 0 0 7px;
+			position: relative;
+		}
+		.slider ul,
+		.slider li {
+			padding: 0;
+			margin: 0;
+			list-style-type: none;
+		}
+		.slider ul {
+			width: 9999px; 
+		}
+		.slider ul li {
+			list-style-type: none;
+			float: left;
+			width: 1570px;
+			height: 510px;
+		}
+		
+		
+		
+		/* отцтупы кнопки в слайдере*/
+		.slider .nav {
+			position: absolute;
+			left: 720px;
+			bottom: 22px; 
+		}
+		.slider .nav span {
+			opacity: 0.9;
+			background: #fff;
+			margin: 0 12px 0 0;
+			width: 20px;
+			height: 20px;
+			border-radius: 8px;
+			cursor: pointer;
+			overflow: hidden;
+			display: block;
+			float: left;
+			box-shadow: 0 1px 2px #000;
+		}
+		.slider .nav span.on {
+			background: #2e9419;
+		}
+ 
+ 
+ /* лицензия */
+.nivoZoomHover {
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:9;
+	width:100%;
+	height:100%;
+	cursor:pointer;
+}
+.nivoCaption {
+	display:none;
+	position:absolute;
+	z-index:110;
+	text-align:center;
+	background:#010101;
+	color:#fff;
+	padding:4px 0;
+	overflow:hidden;
+ 
+ 
+ .nivoZoomHover1 {
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:9;
+	width:100%;
+	height:100%;
+	cursor:pointer;
+}
+.nivoCaption {
+	display:none;
+	position:absolute;
+	z-index:110;
+	text-align:center;
+	background:#010101;
+	color:#fff;
+	padding:4px 0;
+	overflow:hidden;
+ 
+ 
+ 
+ 
+ 
+

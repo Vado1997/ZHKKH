@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<head>
+
+<title>МУП «Ягодное ЖКХ»</title>
+
+  
+
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<link href="style-menu.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="img/qwerty.png" type="img/png">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('body').append('<div id="toTop">Наверх</div>');
+		$(window).scroll(function() {
+			if($(this).scrollTop() > 200) {
+				$('#toTop').fadeIn();	
+			} else {
+				$('#toTop').fadeOut();
+			}
+		});
+	 
+		$('#toTop').click(function() {
+			$('body, html').animate({scrollTop: 0}, 400);
+		});	
+	});
+	</script>
+</head>
+
+<center>
+<table border='0' cellpadding="5" align="center" width="1000px"   >
+
+<tr height='100px'>
+<td width="50px">
+<a href="index.html"> <img src="img/LO.png" width="350" height"350"  > </a>
+
+<td width="130px" >
+<center> <font size="5" color="dimgray" face="Arial" >  <big>&#9990;</big> +7(952) 54-12-68 </font>  </center> 
+
+
+ 
+<body>
+
+<script src="<?php bloginfo('template_url'); ?>/js/scroll.js" type="text/javascript"></script>
+
+<script type="text/javascript"> $(function() { $("#toTop").scrollToTop(); }); </script>
+</body>
+
+
+
+
+</table>
+
+<center>
+<div id="nav">
+    <nav>
+        <ul>
+            
+            <li><a href="index.html">Главная</a>
+              <li><a href="O kompanii.html">О Компании</a>
+            <li><a href="zakonodatel'stvo.html">Законодательство</a>
+              <li><a href="news.html">Новости</a>
+                <li><a href="vakansii.html">Вакансии</a>
+                <li><a href="zhkkh.html">ЖКХ</a>
+				<li><a href="https://vp.ru/">ONLINE ОПЛАТА</a>
+        </ul>
+    </nav>
+ </center>
+
+</table>
+
+<br>
+
+<table border='0' cellpadding="5" align="center" width="1000px"   >
+<td width="850px" height='50px' >
+<font size="4" color="#000000" face="Arial" > ВАКАНСИИ  <br> 
+
+
+
+
+<a href="javascript:history.back()" onMouseOver="window.status='Назад';return true"><font size="2" color="#228B22" face="Arial" > < Назад<font></a> 
+
+</table>
+
+<table border='0' cellpadding="5" align="center" width="1000px"   >
+<td width="450px" height='400px' valign="top">
+<br>
+
+<style>
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    cursor: default;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    
+		
+}
+.popup {
+	background-color: #fff;
+	border: 3px solid #fff;
+	display: inline-block;
+	left: 50%;
+	opacity: 0;
+	padding: 15px;
+	width: 375px;
+	height: 50px;
+	position: fixed;
+	top: 40%;
+	visibility: hidden;
+	z-index: 999999;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-transition: opacity .5s, top .5s;
+	-moz-transition: opacity .5s, top .5s;
+	-ms-transition: opacity .5s, top .5s;
+	-o-transition: opacity .5s, top .5s;
+	transition: opacity .5s, top .5s;
+	border-radius: 11px;
+
+}
+.popup .close_window {
+	font-size: 13px;
+	display: block;
+	width: 6px;
+	height: 17px;
+	position: absolute;
+	padding: 1px 9px 4px 9px;
+	top: -15px;
+	right: -15px;
+	cursor: pointer;
+	color: #fff;
+	font-family: 'tahoma', sans-serif;
+	background: -webkit-gradient(linear, left top, right top, from(#FF0000), to(#FF0000));
+	border-radius: 50%;
+	
+}
+.popup .close_window:hover {
+	background-color: #FF0000;
+	
+}
+
+</style>
+	<script type="text/javascript" src="http://yandex.st/jquery/1.7.1/jquery.min.js" ></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.popup .close_window, .overlay').click(function (){
+				$('.popup, .overlay').css({'opacity':'0', 'visibility':'hidden'});
+			});
+			$('a.open_window').click(function (e){
+				$('.popup, .overlay').css({'opacity':'1', 'visibility':'visible'});
+				e.preventDefault();
+			});
+		});
+	</script>
+</head>
+<body>
+
+ <a class="open_window"href="#" ><font size="4" color="#000000" face="Arial" >Уборщик территории </font></a> <br> <br>
+ <a class="open_window"href="#" ><font size="4" color="#000000" face="Arial" >Уборщица подъездов </font></a> <br> <br>
+ <a class="open_window"href="#" ><font size="4" color="#000000" face="Arial" >Специалист по ремонту и обслуживанию домофонов </font></a> 
+
+<div class="overlay" title="окно"></div>
+<div class="popup">
+<div class="close_window">X</div>
+	<p><font size="4" color="#000000" face="Arial" >Обращаться по телефону: +7(952) 54-12-68 
+	 @mail: sdnoe@yandex.ru</font> </p>
+	
+
+
+
+
+</table>
+
+<table border='0' cellpadding="5" align="center" width="1570px"  bgcolor=" #2A3E47" >
+
+<td width="850px" valign="top">
+ <td width="850px" valign="top">
+ <td width="850px" valign="top">
+ 
+ 
+<td width="50px" valign="top">
+<ul class="gradient-list">
+  <li><a href="index.html">ГЛАВНАЯ</a></li>
+  <li><a href="">О КОМПАНИИ</a></li>
+  <li><a href="zakonodatel'stvo.html">ЗАКОНОДАТЕЛЬСТВО</a></li>
+  
+  </ul>
+  
+<td width="50px" valign="top">
+<ul class="gradie-list">
+  <li><a href="news.html">НОВОСТИ</a></li>
+  <li><a href="vakansii.html">ВАКАНСИИ</a></li>
+ <li><a href="zhkkh.html">ЖКХ</a></li>
+  </ul>
+  
+<td width="50px" valign="top">
+<ul class="gradien-list">
+  <li><a href="O kompanii.html">О Компании</a></li>
+  <li><a href="Princip.html">Принцип работы</a></li>
+<li><a href="https://vp.ru/">ONLINE ОПЛАТА</a>
+
+ 
+</ul>
+
+<td width="50px" valign="top">
+<ul class="gradi-list">
+<li><a href="struktura.html">Структура</a></li>
+  <li><a href="kontakt.html">Контакты</a></li>
+
+
+</ul>
+
+ <td width="850px" valign="top">
+  <td width="850px" valign="top">
+   <td width="850px" valign="top">
+ <br>
+<tr height='8px'>
+<td colspan="10" align="center" >
+<br>
+<center> 
+
+                    <p>    <font size="2" color="#FFFAFA" face="Arial" ><big>&#9990; </big> +7(952) 54-12-68 </font>
+         &nbsp;&nbsp;&nbsp;&nbsp;<font size="2" color="#FFFAFA" face="Arial" ><big>&#9993; </big> sdnoe@yandex.ru </font>
+         &nbsp;&nbsp;&nbsp;&nbsp;<font size="2" color="#FFFAFA" face="Arial" ><big>&#8962;</big>&nbsp; ул Школьная, д 1г </font>
+
+</center>
+
+<br><font size="2" color="#FFFAFA" face="Arial" >© 2005 "Ягодное жилищно-коммунальное хозяйство", МУП 
+<br>Действует на основании Устава</font></br><br>
+
+</table>
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<head>
+
+<title>МУП «Ягодное ЖКХ»</title>
+
+  
+
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<link href="style-menu.css" rel="stylesheet" type="text/css">
+
+<link rel="shortcut icon" href="img/qwerty.png" type="img/png">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('body').append('<div id="toTop">Наверх</div>');
+		$(window).scroll(function() {
+			if($(this).scrollTop() > 200) {
+				$('#toTop').fadeIn();	
+			} else {
+				$('#toTop').fadeOut();
+			}
+		});
+	 
+		$('#toTop').click(function() {
+			$('body, html').animate({scrollTop: 0}, 400);
+		});	
+	});
+	</script>
+</head>
+
+
+<head>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function()
+		{
+			$(".slider").each(function () // обрабатываем каждый слайдер
+			{
+				var obj = $(this);
+				$(obj).append("<div class='nav'></div>");
+
+				$(obj).find("li").each(function ()
+				{
+					$(obj).find(".nav").append("<span rel='"+$(this).index()+"'></span>"); // добавляем блок навигации
+					$(this).addClass("slider"+$(this).index());
+				});
+
+				$(obj).find("span").first().addClass("on"); // делаем активным первый элемент меню
+			});
+		});
+
+	function sliderJS (obj, sl) // функция слайдера
+	{
+		var ul = $(sl).find("ul"); // находим блок
+		var bl = $(sl).find("li.slider"+obj); // находим любой из элементов блока
+		var step = $(bl).width(); // ширина объекта
+		$(ul).animate({marginLeft: "-"+step*obj}, 500); // 500 это скорость перемотки
+	}
+
+	$(document).on("click", ".slider .nav span", function() // кнопка 
+	{
+		var sl = $(this).closest(".slider"); // находим, в каком блоке был клик
+		$(sl).find("span").removeClass("on"); // убираем активный элемент
+		$(this).addClass("on"); // делаем активным текущий
+		var obj = $(this).attr("rel"); // узнаем его номер
+		sliderJS(obj, sl); // слайдим
+		return false;
+	});
+</script>
+</head>
+
+<center>
+<table border='0' cellpadding="5" align="center" width="1000px"   >
+
+<tr height='100px'>
+<td width="50px">
+<a href="index.html"> <img src="img/LO.png" width="350" height"350"  > </a>
+
+<td width="130px" >
+<center> <font size="5" color="dimgray" face="Arial" >  <big>&#9990;</big> +7(952) 54-12-68 </font>  </center> 
+
+
+ 
+<body>
+
+<script src="<?php bloginfo('template_url'); ?>/js/scroll.js" type="text/javascript"></script>
+
+<script type="text/javascript"> $(function() { $("#toTop").scrollToTop(); }); </script>
+</body>
+
+
+
+
+</table>
+
+<center>
+<div id="nav">
+    <nav>
+        <ul>
+            
+            <li><a href="#">Главная</a>
+              <li><a href="O kompanii.html">О Компании</a>
+            <li><a href="zakonodatel'stvo.html">Законодательство</a>
+              <li><a href="news.html">Новости</a>
+                <li><a href="vakansii.html">Вакансии</a>
+                 <li><a href="zhkkh.html">ЖКХ</a>
+				 <li><a href="https://vp.ru/">ONLINE ОПЛАТА</a>
+        </ul>
+    </nav>
+ </center>
+ </div> 
+
+<table border='0' cellpadding="5" align="center" width="1310px"   >
+
+<center>
+<div class="slider">
+			<ul>
+				<li><img src="i/5.jpg" alt="" height="510px" width="1570px" /></li>
+				<li><img src="i/2.jpg" alt="" height="510px" width="1570px"/></li>
+				<li><img src="i/1.jpg" alt="" height="510px" width="1570px"/></li>
+				<li><img src="i/3.jpg" alt="" height="510px" width="1570px"/></li>
+			</ul>
+		</div></center>
+</table>
+<br>
+
+<table border='0' cellpadding="5" align="center" width="1000px"   >
+<td width="450px" height='400px' valign="top">
+<font size="5" color="black" face="Arial" >ПОСЛЕДНИЕ НОВОСТИ </font> <br> <br>
+
+<a href="1.html"> <img src="img/ZHvachkin.png" title="Новости" width="280" height="190"> </a>
+<p align="left"><font size="3" color="black" face="Arial" > Установлен прожиточный минимум <br>за IV квартал 2016 года </font> <br><br>
+<font size="2" color="dimgray" face="Arial" >Вт, 07 февраля 2017</font> </p>
+
+<td width="450px" valign="top" >
+<font size="5" color="whitesmoke" face="Arial" >. </font> <br> <br>
+<a href="2.html"> <img src="img/fuf.jpeg" title="Новости" width="280" height="190"> </a>
+<p align="left"><font size="3" color="black" face="Arial" >Информация о проведении <br>общероссийского дня  приема граждан <br>12 декабря 2016 года </font> <br><br>
+<font size="2" color="dimgray" face="Arial" >Пт, 02 декабря 2016</font> </p>
+ 
+<td width="290px" valign="top">
+<font size="5" color="whitesmoke" face="Arial" >. </font> <br> <br>
+<center> <a href="3.html"><img src="img/tarify.jpg" title="Новости" width="280" height="190"> </a> </center>
+<p align="left"><font size="3" color="black" face="Arial" >Объявление о росте тарифов и <br> установке приборов учёта</font> <br><br>
+<font size="2" color="dimgray" face="Arial" >Вт, 01 ноября 2016</font> </p>
+
+</table>
+
+
+
+
+
+<table border='0' cellpadding="5" align="center" width="1000px"   >
+<tr height='400px' bgcolor="">
+<td colspan="2" valign="bottom" >
+<font size="5" color="black" face="Arial" >КОНТАКТЫ </font> <br> <br>
+
+<font size="3" color="black" face="Arial" ><b>Режим работы</b> </font><br> 
+<br><font size="3" color="black" face="Arial" >пн. с 8.30 до 19.00 </font>
+<br><font size="3" color="black" face="Arial" >вт. - пт. с 8.30 до 17.30</font>
+<br><font size="3" color="black" face="Arial" >Обед с 12.00 до 13.00</br></font>
+
+<br><font size="3" color="black" face="Arial" ><b>Контакты </b></font><br>
+<br><font size="3" color="black" face="Arial" >Эл. почта: zhilhome@mail.ru</font>
+<br><font size="3" color="black" face="Arial" >Приемная: +7(952) 54-12-68</font>
+<br><font size="3" color="black" face="Arial" >Адрес: Томская область, Асиновский <br>район, с Ягодное, ул Школьная, д 1"г"</br></font>
+<br><br>
+<td width="450px" >
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=JXVhiE8Cas98sA34c2oxukOTj8P1T4wz&amp;width=683&amp;height=567&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+
+</table>
+<p>
+<br>
+
+
+</table>
+
+<table border='0' cellpadding="5" align="center" width="1570px"  bgcolor=" #2A3E47" >
+
+<td width="850px" valign="top">
+ <td width="850px" valign="top">
+ <td width="850px" valign="top">
+ 
+ 
+<td width="50px" valign="top">
+<ul class="gradient-list">
+  <li><a href="">ГЛАВНАЯ</a></li>
+  <li><a href="O kompanii.html">О КОМПАНИИ</a></li>
+  <li><a href="zakonodatel'stvo.html">ЗАКОНОДАТЕЛЬСТВО</a></li>
+  
+  </ul>
+  
+<td width="50px" valign="top">
+<ul class="gradie-list">
+<li><a href="news.html">НОВОСТИ</a></li>
+  <li><a href="vakansii.html">ВАКАНСИИ</a></li>
+<li><a href="zhkkh.html">ЖКХ</a></li>
+  </ul>
+  
+<td width="50px" valign="top">
+<ul class="gradien-list">
+  <li><a href="O kompanii.html">О Компании</a></li>
+  <li><a href="Princip.html">Принцип работы</a></li>
+<li><a href="https://vp.ru/">ONLINE ОПЛАТА</a>
+ 
+
+ 
+</ul>
+
+<td width="50px" valign="top">
+<ul class="gradi-list">
+<li><a href="struktura.html">Структура</a></li>
+  <li><a href="kontakt.html">Контакты</a></li>
+  
+
+</ul>
+
+ <td width="850px" valign="top">
+  <td width="850px" valign="top">
+   <td width="850px" valign="top">
+ <br>
+<tr height='8px'>
+<td colspan="10" align="center" >
+<br>
+<center> 
+
+                    <p>    <font size="2" color="#FFFAFA" face="Arial" ><big>&#9990; </big> +7(952) 54-12-68 </font>
+         &nbsp;&nbsp;&nbsp;&nbsp;<font size="2" color="#FFFAFA" face="Arial" ><big>&#9993; </big> sdnoe@yandex.ru </font>
+         &nbsp;&nbsp;&nbsp;&nbsp;<font size="2" color="#FFFAFA" face="Arial" ><big>&#8962;</big>&nbsp; ул Школьная, д 1г </font>
+
+</center>
+
+<br><font size="2" color="#FFFAFA" face="Arial" >© 2005 "Ягодное жилищно-коммунальное хозяйство", МУП 
+<br>Действует на основании Устава</font><br><br>
+
+</table>
+
+
+
+
+
+
+
+
+</html>

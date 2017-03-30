@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding:0;
+  
+}
+
+nav {
+  text-align: center;
+  margin: 10px 0;
+  
+}
+
+
+nav ul {
+	
+  background: #228B22; /* цвет меню */
+  padding: 0 20px;
+  border-radius: 17px; /* закругление углов */
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  
+}
+
+nav ul li {
+  float: left; /* гориз меню */
+  
+}
+nav ul li:hover {
+    background: #FF8C00; /* цвет при навидении меню */
+  }
+
+nav ul li a {
+    display: block; padding: 12px 35px;
+    color: #FFFAFA; /* цвет текста в мею */
+	
+  }
+
+  nav ul li a:hover {
+    text-decoration: none; /* Убираем подчеркивание */
+    
+   }
+  
+  
+  
+  
+
+	
+
+
+
+
+	
+
+
+
+
+
+
